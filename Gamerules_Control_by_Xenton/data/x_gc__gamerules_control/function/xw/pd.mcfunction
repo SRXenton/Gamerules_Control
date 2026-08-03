@@ -1,5 +1,5 @@
 ### Prepare dialog p01
-
+## Cal in: x_gc__settings.mcfunction
 
 function x_gc__gamerules_control:xm/of {gr_name:"advance_time"}
 function x_gc__gamerules_control:xm/of {gr_name:"advance_weather"}

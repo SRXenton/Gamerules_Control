@@ -1,4 +1,6 @@
 ### Main dialog window
+## Call in: x_gc__settings.mcfunction
+
 
 scoreboard players enable @s x_gamerules_control.pages
 

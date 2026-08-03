@@ -20,4 +20,5 @@ scoreboard players enable @s x_gamerules_control.values
 trigger x_gamerules_control.pages set 1
 trigger x_gamerules_control.values set 0
 
+## For Debug
 return 1

@@ -1,3 +1,5 @@
+### Main dialog window
+
 scoreboard players enable @s x_gamerules_control.pages
 
 

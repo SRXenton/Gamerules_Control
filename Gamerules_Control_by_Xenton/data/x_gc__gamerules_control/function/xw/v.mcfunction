@@ -1,10 +1,13 @@
+### Dialog window for entry values
+## Call in: xw/pv.mcfunction
+
 scoreboard players enable @s x_gamerules_control.pages
 scoreboard players enable @s x_gamerules_control.values
 
 $dialog show @s {\
     type:"confirmation",\
     "can_close_with_escape": true,\
-    "title":"Value for $(gr)",\
+    "title":"Value for $(gr_name)",\
     "pause": false,\
     "inputs":[\
         {key:"v",type:"minecraft:text",label:"Value",initial:"$(value)"}\
@@ -24,3 +27,6 @@ $dialog show @s {\
         }\
     }\
 }
+
+## For Debug
+return 1

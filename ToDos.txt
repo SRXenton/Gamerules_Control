@@ -1,0 +1,16 @@
+## Todolist for the beta phase
+
+Status  Number  Titel
+            Description
+----------------------------------------------------------------------------------------------------------------------------------------------------
+open    0001    Titel
+            Actual:
+                Menu has no titel
+            Goal:
+                Set title   
+
+open    0002    Reset all gameruls, Note: Setpoint list is implemented
+            Actual: no Reset to setpoint
+            Goal: Reset all or single to setpoint
+            
+

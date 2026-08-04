@@ -1,0 +1,63 @@
+### Switch for pagesnr
+## Call in: xt/tw.mcfunction
+
+execute as @a[scores={x_gamerules_control.pages=1000}] run function x_gc__gamerules_control:xm/tg {gr_name:"advance_time"}
+execute as @a[scores={x_gamerules_control.pages=2000}] run function x_gc__gamerules_control:xm/tg {gr_name:"advance_weather"}
+execute as @a[scores={x_gamerules_control.pages=3000}] run function x_gc__gamerules_control:xm/tg {gr_name:"allow_entering_nether_using_portals"}
+execute as @a[scores={x_gamerules_control.pages=4000}] run function x_gc__gamerules_control:xm/tg {gr_name:"block_drops"}
+execute as @a[scores={x_gamerules_control.pages=5000}] run function x_gc__gamerules_control:xm/tg {gr_name:"block_explosion_drop_decay"}
+execute as @a[scores={x_gamerules_control.pages=6000}] run function x_gc__gamerules_control:xm/tg {gr_name:"command_block_output"}
+execute as @a[scores={x_gamerules_control.pages=7000}] run function x_gc__gamerules_control:xm/tg {gr_name:"command_blocks_work"}
+execute as @a[scores={x_gamerules_control.pages=8000}] run function x_gc__gamerules_control:xm/tg {gr_name:"drowning_damage"}
+execute as @a[scores={x_gamerules_control.pages=9000}] run function x_gc__gamerules_control:xm/tg {gr_name:"elytra_movement_check"}
+execute as @a[scores={x_gamerules_control.pages=10000}] run function x_gc__gamerules_control:xm/tg {gr_name:"ender_pearls_vanish_on_death"}
+execute as @a[scores={x_gamerules_control.pages=11000}] run function x_gc__gamerules_control:xm/tg {gr_name:"entity_drops"}
+execute as @a[scores={x_gamerules_control.pages=12000}] run function x_gc__gamerules_control:xm/tg {gr_name:"fall_damage"}
+execute as @a[scores={x_gamerules_control.pages=13000}] run function x_gc__gamerules_control:xm/tg {gr_name:"fire_damage"}
+execute as @a[scores={x_gamerules_control.pages=14000}] run function x_gc__gamerules_control:xw/pv {gr_name:"fire_spread_radius_around_player"}
+execute as @a[scores={x_gamerules_control.pages=15000}] run function x_gc__gamerules_control:xm/tg {gr_name:"forgive_dead_players"}
+execute as @a[scores={x_gamerules_control.pages=16000}] run function x_gc__gamerules_control:xm/tg {gr_name:"freeze_damage"}
+execute as @a[scores={x_gamerules_control.pages=17000}] run function x_gc__gamerules_control:xm/tg {gr_name:"global_sound_events"}
+execute as @a[scores={x_gamerules_control.pages=18000}] run function x_gc__gamerules_control:xm/tg {gr_name:"immediate_respawn"}
+execute as @a[scores={x_gamerules_control.pages=19000}] run function x_gc__gamerules_control:xm/tg {gr_name:"keep_inventory"}
+execute as @a[scores={x_gamerules_control.pages=20000}] run function x_gc__gamerules_control:xm/tg {gr_name:"lava_source_conversion"}
+execute as @a[scores={x_gamerules_control.pages=21000}] run function x_gc__gamerules_control:xm/tg {gr_name:"limited_crafting"}
+execute as @a[scores={x_gamerules_control.pages=22000}] run function x_gc__gamerules_control:xm/tg {gr_name:"locator_bar"}
+execute as @a[scores={x_gamerules_control.pages=23000}] run function x_gc__gamerules_control:xm/tg {gr_name:"log_admin_commands"}
+execute as @a[scores={x_gamerules_control.pages=24000}] run function x_gc__gamerules_control:xw/pv {gr_name:"max_block_modifications"}
+execute as @a[scores={x_gamerules_control.pages=25000}] run function x_gc__gamerules_control:xw/pv {gr_name:"max_command_forks"}
+execute as @a[scores={x_gamerules_control.pages=26000}] run function x_gc__gamerules_control:xw/pv {gr_name:"max_command_sequence_length"}
+execute as @a[scores={x_gamerules_control.pages=27000}] run function x_gc__gamerules_control:xw/pv {gr_name:"max_entity_cramming"}
+execute as @a[scores={x_gamerules_control.pages=28000}] run function x_gc__gamerules_control:xw/pv {gr_name:"max_snow_accumulation_height"}
+execute as @a[scores={x_gamerules_control.pages=29000}] run function x_gc__gamerules_control:xm/tg {gr_name:"mob_drops"}
+execute as @a[scores={x_gamerules_control.pages=30000}] run function x_gc__gamerules_control:xm/tg {gr_name:"mob_explosion_drop_decay"}
+execute as @a[scores={x_gamerules_control.pages=31000}] run function x_gc__gamerules_control:xm/tg {gr_name:"mob_griefing"}
+execute as @a[scores={x_gamerules_control.pages=32000}] run function x_gc__gamerules_control:xm/tg {gr_name:"natural_health_regeneration"}
+execute as @a[scores={x_gamerules_control.pages=33000}] run function x_gc__gamerules_control:xm/tg {gr_name:"player_movement_check"}
+execute as @a[scores={x_gamerules_control.pages=34000}] run function x_gc__gamerules_control:xw/pv {gr_name:"players_nether_portal_creative_delay"}
+execute as @a[scores={x_gamerules_control.pages=35000}] run function x_gc__gamerules_control:xw/pv {gr_name:"players_nether_portal_default_delay"}
+execute as @a[scores={x_gamerules_control.pages=36000}] run function x_gc__gamerules_control:xw/pv {gr_name:"players_sleeping_percentage"}
+execute as @a[scores={x_gamerules_control.pages=37000}] run function x_gc__gamerules_control:xm/tg {gr_name:"projectiles_can_break_blocks"}
+execute as @a[scores={x_gamerules_control.pages=38000}] run function x_gc__gamerules_control:xm/tg {gr_name:"pvp"}
+execute as @a[scores={x_gamerules_control.pages=39000}] run function x_gc__gamerules_control:xw/pv {gr_name:"random_tick_speed"}
+execute as @a[scores={x_gamerules_control.pages=40000}] run function x_gc__gamerules_control:xm/tg {gr_name:"raids"}
+execute as @a[scores={x_gamerules_control.pages=41000}] run function x_gc__gamerules_control:xm/tg {gr_name:"reduced_debug_info"}
+execute as @a[scores={x_gamerules_control.pages=42000}] run function x_gc__gamerules_control:xw/pv {gr_name:"respawn_radius"}
+execute as @a[scores={x_gamerules_control.pages=43000}] run function x_gc__gamerules_control:xm/tg {gr_name:"show_advancement_messages"}
+execute as @a[scores={x_gamerules_control.pages=44000}] run function x_gc__gamerules_control:xm/tg {gr_name:"send_command_feedback"}
+execute as @a[scores={x_gamerules_control.pages=45000}] run function x_gc__gamerules_control:xm/tg {gr_name:"show_death_messages"}
+execute as @a[scores={x_gamerules_control.pages=46000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_mobs"}
+execute as @a[scores={x_gamerules_control.pages=47000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_monsters"}
+execute as @a[scores={x_gamerules_control.pages=48000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_patrols"}
+execute as @a[scores={x_gamerules_control.pages=49000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_phantoms"}
+execute as @a[scores={x_gamerules_control.pages=50000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_wandering_traders"}
+execute as @a[scores={x_gamerules_control.pages=51000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawn_wardens"}
+execute as @a[scores={x_gamerules_control.pages=52000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spawner_blocks_work"}
+execute as @a[scores={x_gamerules_control.pages=53000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spectators_generate_chunks"}
+execute as @a[scores={x_gamerules_control.pages=54000}] run function x_gc__gamerules_control:xm/tg {gr_name:"spread_vines"}
+execute as @a[scores={x_gamerules_control.pages=55000}] run function x_gc__gamerules_control:xm/tg {gr_name:"tnt_explodes"}
+execute as @a[scores={x_gamerules_control.pages=56000}] run function x_gc__gamerules_control:xm/tg {gr_name:"tnt_explosion_drop_decay"}
+execute as @a[scores={x_gamerules_control.pages=57000}] run function x_gc__gamerules_control:xm/tg {gr_name:"universal_anger"}
+execute as @a[scores={x_gamerules_control.pages=58000}] run function x_gc__gamerules_control:xm/tg {gr_name:"water_source_conversion"}
+
+return 1

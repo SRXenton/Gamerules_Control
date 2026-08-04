@@ -1,4 +1,11 @@
-# {name:"<Name of the gamerule>",page:<pagenumber>,typ:"<Typ: b=bool,n=number>"},\
+### Overview and Setpoints
+## Call in: x_gc_settings.mcfcuntion
+##
+## Without experimental gamerules
+##
+## Structure: Array of
+## {name:"<Name of the gamerule>",page:<pagenumber>,typ:"<Typ: b=bool,n=number>", soll:"<setpoint>"},\
+##
 
 data modify storage x_gamerules_control:data gamerules set value []
 

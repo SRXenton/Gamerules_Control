@@ -7,7 +7,7 @@ scoreboard players enable @s x_gamerules_control.pages
 
 $dialog show @s {\
     "type": "minecraft:notice",\
-    "title": "Titel",\
+    "title": "Gamerules Control",\
     "can_close_with_escape": true,\
     "after_action": "close",\
     "pause": false,\
